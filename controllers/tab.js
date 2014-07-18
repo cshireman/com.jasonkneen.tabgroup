@@ -111,12 +111,12 @@ function open(subWindow) {
 		var extendBottom = subWindow.extendEdges && _.contains(subWindow.extendEdges, Ti.UI.EXTEND_EDGE_BOTTOM);
 		subWindow.applyProperties({
 			top : 0,
-			bottom : extendBottom ? 0 : args.settings.tabHeight
+			bottom : OS_IOS && extendBottom ? 0 : args.settings.tabHeight
 		});
 	} else {
 		var extendTop = subWindow.extendEdges && _.contains(subWindow.extendEdges, Ti.UI.EXTEND_EDGE_TOP);
 		subWindow.applyProperties({
-			top : extendTop ? 0 : args.settings.tabHeight,
+			top : OS_IOS && extendTop ? 0 : args.settings.tabHeight,
 			bottom : 0
 		});
 	}
