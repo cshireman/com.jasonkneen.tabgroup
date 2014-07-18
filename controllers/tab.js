@@ -42,7 +42,7 @@ function setActive() {
 		$.tab.backgroundColor = $.tab.backgroundSelectedColor || $.tab.backgroundColor;
 
 		icon.setActive();
-		
+
 		if (args.settings.captions) {
 			caption.setActive();
 		}
@@ -77,7 +77,7 @@ function setInactive() {
 		$.tab.backgroundColor = tabBackgroundColor;
 
 		icon.setInactive();
-		
+
 		if (args.settings.captions) {
 			caption.setInactive();
 		}
@@ -156,28 +156,23 @@ function open(subWindow) {
 			subWindow.open();
 		} else {
 
-            if (args.settings.tabsAtBottom) {
-                    subWindow.applyProperties({
-                            top : 0,
-                            bottom : args.settings.tabHeight
-                    });
-            } else {
-                    subWindow.applyProperties({
-                            top : args.settings.tabHeight,
-                            bottom : 0
-                    });
-            }
-            
-            // instead of adding a button, use the native back-button
-            subWindow.addEventListener('androidback', androidback);       
-            subWins.push(subWindow);
+			if (args.settings.tabsAtBottom) {
+				subWindow.applyProperties({
+					top : 0,
+					bottom : args.settings.tabHeight
+				});
+			} else {
+				subWindow.applyProperties({
+					top : args.settings.tabHeight,
+					bottom : 0
+				});
+			}
+
+			// instead of adding a button, use the native back-button
+			subWindow.addEventListener('androidback', androidback);
+			subWins.push(subWindow);
 		}
 
-		subWindow.open();
-
-		}
-
-	} else {
 		subWindow.open();
 	}
 }
@@ -207,8 +202,8 @@ function close(subWindow) {
 	}
 }
 
-function androidback(e){
-    close(e.source);
+function androidback(e) {
+	close(e.source);
 }
 
 exports.setInactive = setInactive;
