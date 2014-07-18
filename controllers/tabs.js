@@ -43,17 +43,6 @@ function init() {
 	tabGroupWindow = Ti.UI.createWindow(config);
 
 
-//  TODO  -  add tabs.close()  +  hook up back button to close tabs
-
-if(OS_ANDROID){
-    // Back Button
-    tabGroupWindow.addEventListener('androidback', function() {
-    	Ti.API.info('TO DO:  need to implement close tabs');
-        // $.tabGroup.close();
-    });
-}
-
-
 	// set top/bottom of root window
 	// and position of tabgroup
 }
