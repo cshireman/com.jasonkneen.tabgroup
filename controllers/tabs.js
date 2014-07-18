@@ -194,19 +194,13 @@ function refresh() {
 
 	// cache values to speed things up
 	var deviceWidth = Ti.Platform.displayCaps.platformWidth;
+	OS_ANDROID && (deviceWidth /= Ti.Platform.displayCaps.logicalDensityFactor);
+
 	var tabCount = $.tabGroup.children.length;
 
 	// iterate through the tabs and lay out
 	$.tabGroup.children.forEach(function(tab) {
-
-		// for some reason, issues with display caps on emulator so
-		// %ages used for Android, absolute division for iOS
-		if (OS_IOS) {
-			tab.width = deviceWidth / tabCount;
-		} else {
-			tab.width = (99 / tabCount) + "%";
-		}
-
+		tab.width = deviceWidth / tabCount;
 	});
 }
 
