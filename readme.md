@@ -3,6 +3,8 @@
 
 ##NOTE AS OF TITANIUM SDK 3.3. THIS NO LONGER WORKS DUE TO LIGHTWEIGHT WINDOWS BEING DEPRECATED / REMOVED
 
+[Use my new commonJS based TabGroup replacement](https://github.com/jasonkneen/com.jasonkneen.tabdemo)
+
 ## Overview
 This is a widget for the [Appcelerator](http://www.appcelerator.com) [Alloy](http://projects.appcelerator.com/alloy/docs/Alloy-bootstrap/index.html) MVC framework which provides an iOS + Android TabGroup with enhanced customisation options.
 
