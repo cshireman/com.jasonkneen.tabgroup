@@ -1,4 +1,8 @@
 # TabGroup for Alloy
+
+
+##NOTE AS OF TITANIUM SDK 3.3. THIS NO LONGER WORKS DUE TO LIGHTWEIGHT WINDOWS BEING DEPRECATED / REMOVED
+
 ## Overview
 This is a widget for the [Appcelerator](http://www.appcelerator.com) [Alloy](http://projects.appcelerator.com/alloy/docs/Alloy-bootstrap/index.html) MVC framework which provides an iOS + Android TabGroup with enhanced customisation options.
 
