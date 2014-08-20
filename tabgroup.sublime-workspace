@@ -1,0 +1,259 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Titanium Build/Titanium.sublime-build",
+	"command_palette":
+	{
+		"height": 227.0,
+		"selected_items":
+		[
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"xiki",
+				"Create Xiki Buffer"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packain",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"File: Quick File Open"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Pakcage",
+				"Package Control: Enable Package"
+			],
+			[
+				"Packag",
+				"Package Control: Disable Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packageins",
+				"Package Control: Install Package"
+			],
+			[
+				"ssyn",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 357.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/chris/Library/Application Support/Sublime Text 2/Packages/Gist/Gist.sublime-settings",
+		"/Users/chris/HathwayProjects/TUIE/app/lib/Utilities.js",
+		"/Users/chris/HathwayProjects/TUIE/app/controllers/CreditReport/accounts.js",
+		"/Users/chris/HathwayProjects/TUIE/app/controllers/tabs.js",
+		"/Users/chris/Library/Application Support/Sublime Text 2/Packages/User/scriptsource.sublime-snippet",
+		"/Users/chris/Documents/test.html",
+		"/Users/chris/HathwayProjects/behrpro/.gitignore",
+		"/Users/chris/HathwayProjects/TUIE/Resources/app.js",
+		"/Users/chris/HathwayProjects/tishadowapp/tiapp.xml",
+		"/Users/chris/HathwayProjects/TUIE/app/views/Dashboard/dashboardOld.xml",
+		"/Users/chris/HathwayProjects/TUIE/tiapp.xml",
+		"/Users/chris/HathwayProjects/TUIE/app/controllers/Alerts/alerts.js",
+		"/Users/chris/HathwayProjects/TUIE/.arcconfig",
+		"/Users/chris/HathwayProjects/TUIE/TUIE.sublime-project"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"accounts",
+			"Accounts",
+			"accounts",
+			"accounts.",
+			"account	",
+			"accounts",
+			"this",
+			"logoutPressed",
+			"android"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ustabbed",
+				"Resources/ui/handheld/ios/controls/tabbedbar.js"
+			],
+			[
+				"basic",
+				"Resources/ui/handheld/ios/baseui/basic_animation.js"
+			],
+			[
+				"ani",
+				"Resources/ui/handheld/ios/baseui/animation.js"
+			],
+			[
+				"tabs",
+				"app/controllers/tabs.js"
+			],
+			[
+				"app.js",
+				"Resources/app.js"
+			],
+			[
+				"index.js",
+				"app/controllers/index.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true
+}

@@ -132,6 +132,8 @@ function addTab(props) {
 
 	// add the tab to the view
 	$.tabGroup.add(tab.getView());
+
+	return tab;
 }
 
 // used to set initial settings

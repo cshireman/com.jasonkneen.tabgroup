@@ -206,7 +206,17 @@ function androidback(e) {
 	close(e.source);
 }
 
+/**
+ * Placeholder for now - need to implement this for final app
+ * @param {int} number The number to display in the badge
+ */
+function setBadge(number){
+
+}
+
+
 exports.setInactive = setInactive;
 exports.setActive = setActive;
 exports.open = open;
 exports.close = close;
+exports.setBadge = setBadge;
